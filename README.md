@@ -1,7 +1,7 @@
 Deep Latent-Variable Kernel Learning
 ====
 
-This is the python implementation of deep latent-variable kernel learning.
+This is the python implementation of the model proposed in our paper [deep latent-variable kernel learning](https://arxiv.org/abs/2005.08467).
 
 Deep kernel learning ([DKL](https://arxiv.org/abs/1511.02222)) leverages the connection between Gaussian process (GP) and neural networks (NN) to build an end-to-end, hybrid model. It combines the capability of NN to learn rich representations under massive data and the non-parametric property of GP to achieve automatic calibration. However, the deterministic encoder may weaken the model calibration of the following GP part, especially on small datasets, due to the free latent representation. 
 
